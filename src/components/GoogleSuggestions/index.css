@@ -1,0 +1,58 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.GoogleSuggestions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffffff;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.Google-image {
+  height: 180px;
+  width: 60vw;
+  margin: 15px;
+  margin-top: 30px;
+}
+
+.search-small-card-container {
+  background-color: #ffffffff;
+  background-size: cover;
+  height: 100%;
+  border-radius: 15px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.search-image {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  margin: 8px;
+  margin-top: 25px;
+}
+
+.search {
+  border: none;
+  background-color: transparent;
+  height: 50px;
+}
+
+.placeholder {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #bfbfbf;
+  font-weight: 500;
+  font-style: italic;
+}
